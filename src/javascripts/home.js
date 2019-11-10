@@ -1,7 +1,11 @@
 // Load jQuery from NPM
 import $ from 'jquery';
-import './materialize';
 import '../stylesheets/home.scss';
+import header from '../components/header/index';
 
-window.jQuery = $;
 window.$ = $;
+window.jQuery = $;
+
+require('./materialize');
+
+header($);

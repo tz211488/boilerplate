@@ -1,0 +1,100 @@
+.header-top {
+  font-size: 1rem;
+  line-height: 3rem;
+  text-align: center;
+  .close-header-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+}
+.header-nav {
+  .brand-logo {
+    margin-left: 3rem;
+  }
+  .main-menu-wrapper {
+    position: relative;
+    float: left;
+    left: 50%;
+  }
+  .main-menu {
+    position: relative;
+    float: left;
+    right: 50%;
+  }
+  .header-actions {
+    margin-right: 3rem;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+    .account-header-action {
+      &.sidenav-trigger {
+        display: block !important;
+      }
+    }
+  }
+
+  .menu-item-full {
+    width: 100vw !important;
+    position: absolute !important;
+    left: 0 !important;
+    padding: 3rem 15%;
+  }
+  .menu-sub-category {
+    font-size: 1.2rem;
+  }
+  .menu-sub-item {
+    li { color: #90a4ae !important; }
+  }
+
+  .search-bar-wrapper {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #cfd8dc;
+    z-index: 2;
+    .search-bar-input {
+      width: 100% !important;
+      height: 64px !important;
+      margin: 0;
+    }
+    .search-bar-icon {
+      position: absolute;
+      right: 2em;
+      top: 0;
+      &.search-icon {
+        right: 4em;
+      }
+    }
+  }
+
+  .right-sidenav {
+    padding: 0 1em;
+    .sidenav-title {
+      text-align: left;
+      line-height: 2em;
+      border-bottom: solid 1px #cfd8dc;
+      .sidenav-title-action {
+        text-align: right;
+      }
+      .sidenav-title-content {
+        font-size: 1.2em;
+      }
+    }
+    .sidenav-content {
+      margin-top: 3em;
+    }
+    .sidenav-footer {
+      margin-top: 3em;
+      text-align: center;
+    }
+    .sidenav-btn {
+      width: 70%;
+      margin: 1em 0;
+    }
+    .account-input {
+      width: 80% !important;
+      margin-left: 3rem !important;
+    }
+  }
+}

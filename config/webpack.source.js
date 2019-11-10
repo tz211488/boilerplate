@@ -35,6 +35,11 @@ module.exports = {
   module: {
     rules: loaders,
   },
+  externals: {
+    externals: {
+      $: 'jQuery',
+    },
+  },
   target: 'web',
   plugins,
   optimization: {
